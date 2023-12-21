@@ -20,7 +20,7 @@ class Carro {
 
 const civic = new Carro('honda', 'prata', 1/8);
 const jeta = new Carro('volsk','prata', 1/7);
-const hornet = new Carro('honda','preta',1/15)
+const hornet = new Carro('honda','preta',1/15);
 
 console.log(civic);
 // Vai me retornar a media de consume em KM;

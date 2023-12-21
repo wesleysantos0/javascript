@@ -38,3 +38,4 @@ class Pessoa {
 const wesley = new Pessoa('wesley h santos',72,1.70);
 
 console.log(wesley.classificaImc());
+console.log(wesley);
