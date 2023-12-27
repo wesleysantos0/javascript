@@ -1,9 +1,9 @@
 # javascript
  Curso de javascript
 
- Jogo Detona Ralph : /n
+ Jogo Detona Ralph : 
  https://wesleysantos0.github.io/RalphDetona/
 
- Jogo da Memória : /br
+ Jogo da Memória : 
  https://wesleysantos0.github.io/jogo-da-memoria/
  
