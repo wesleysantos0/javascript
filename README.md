@@ -9,4 +9,7 @@
 
  Jogo de simulação de Piano :
   https://wesleysantos0.github.io/piano-virtual/
+
+  Jogo YU-GI-Oh Joken-po :
+  https://wesleysantos0.github.io/js-yugioh-assets/
  
