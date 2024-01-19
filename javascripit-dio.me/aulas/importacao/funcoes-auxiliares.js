@@ -1,4 +1,4 @@
-const entrada = [10,20,35,65,80,94];
+const entradas = [8.5];
 let i = 0;
 
 function gets() {
@@ -13,4 +13,4 @@ function print(texto) {
 
 
 
-module.exports = {gets, print};
+module.exports = { gets, print };
