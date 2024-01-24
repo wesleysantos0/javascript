@@ -25,3 +25,12 @@ body{
     margin: 0;
 }
 
+#btnTeste {
+    display: flex;
+    margin: 0 auto;
+    width: 120px;
+    height: 80px;
+    padding: 10px;
+    background-color: violet;
+    color: pink;
+}
