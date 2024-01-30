@@ -12,4 +12,7 @@
 
   Jogo YU-GI-Oh Joken-po :
   https://wesleysantos0.github.io/js-yugioh-assets/
+
+  Pokedex :
+  https://wesleysantos0.github.io/pokedex-page/
  
