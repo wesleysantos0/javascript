@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="shortcut icon" href="game.png" type="image/x-icon">
+
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,9 +23,8 @@
     <section class="content">
 
         <h1>Pokedex</h1>
-
-        <ol class="pokemons">
-            <li class="pokemon">
+        <ol id="pokemonList" class="pokemons">
+            <!-- <li class="pokemon">
                 <span class="number">#001</span>
                 <span class="name">Bulbasaur</span>
                 <div class="detail">
@@ -34,76 +35,20 @@
                     <img src="https://th.bing.com/th/id/R.150cd0d49c4d380b759680d9e9016eef?rik=SEQIqL47tgrtrA&riu=http%3a%2f%2ffc09.deviantart.net%2ffs71%2fi%2f2012%2f088%2f9%2f6%2fbulbasaur_by_songokukai-d4gecpp.png&ehk=9bbENwNisHc%2fLUbkHQoNg4%2bvhdtoO4H5tNsgvrjeCvY%3d&risl=&pid=ImgRaw&r=0"
                         alt="Bulbasaur">
                 </div>
-            </li>
+            </li> -->
 
-            <li class="pokemon">
-                <span class="number">#002</span>  <!-- NUMERO DO POKEMON --> 
-                <span class="name">Ivysaur</span>
-                <div class="detail">
-                    <ol class="type">
-                        <li class="type">Grass</li>
-                        <li class="type">Poison</li>
-                    </ol>
-                    <img src="https://orig00.deviantart.net/921d/f/2011/320/d/1/ivysaur_by_songokukai-d4gewow.png"
-                        alt="Ivysaur">
-                </div>
+            
 
-            </li>
-
-            <li class="pokemon">
-                <span class="number">#003</span>
-                <span class="name">Venusaur</span>
-                <div class="detail">
-                    <ol class="type">
-                        <li class="type">Grass</li>
-                        <li class="type">Poison</li>
-                    </ol>
-                    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fcfdb686-2c1b-4685-8f03-8fbb7a09d0c8/dayccha-fe613c07-bdf4-456d-af3d-d3c09f71218c.png/v1/fill/w_934,h_856,strp/venusaur_by_dragonchaser123_dayccha-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTE3IiwicGF0aCI6IlwvZlwvZmNmZGI2ODYtMmMxYi00Njg1LThmMDMtOGZiYjdhMDlkMGM4XC9kYXljY2hhLWZlNjEzYzA3LWJkZjQtNDU2ZC1hZjNkLWQzYzA5ZjcxMjE4Yy5wbmciLCJ3aWR0aCI6Ijw9MTAwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.FiQXh5D44csDpmanAbD2nva03mQYBie6iP1DNXq4U7o"
-                        alt="Venusaur">
-                </div>
-
-            </li>
-
-            <li class="pokemon">
-                <span class="number">#004</span>
-                <span class="name">Chamander</span>
-                <div class="detail">
-                    <ol class="type">
-                        <li class="type">Grass</li>
-                        <li class="type">Poison</li>
-                    </ol>
-                    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/f484215b-4e9a-42b5-9feb-77c3dec3a385/dala92b-9ecf2fc6-d8aa-4c90-b728-ef6509eebd90.png"
-                        alt="Chamander">
-                </div>
-            </li>
-
-            <li class="pokemon">
-                <span class="number">#005</span>
-                <span class="name">Charmeleon</span>
-                <div class="detail">
-                    <ol class="type">
-                        <li class="type">Grass</li>
-                        <li class="type">Poison</li>
-                    </ol>
-                    <img src="https://orig00.deviantart.net/989d/f/2016/111/b/8/005_charmeleon_by_tzblacktd-d9zq9w5.png"
-                        alt="Charmeleon">
-                </div>
-            </li>
-
-            <li class="pokemon">
-                <span class="number">#006</span>
-                <span class="name">Charizard</span>
-                <div class="detail">
-                    <ol class="type">
-                        <li class="type">Grass</li>
-                        <li class="type">Poison</li>
-                    </ol>
-                    <img src="https://th.bing.com/th/id/R.4b3488ca49c0257300530d4099855fc8?rik=QgwfDHd9WE5bVg&riu=http%3a%2f%2ffc07.deviantart.net%2ffs70%2ff%2f2011%2f237%2f1%2f3%2fcharizard_by_mallin231-d47rhtq.png&ehk=wf0PHp4H0H84aMf%2foSfqz1J5mqvlSI3iTG4vFPOT7dE%3d&risl=&pid=ImgRaw&r=0"
-                        alt="Charizard">
-                </div>
-
-            </li>
+            <!-- .... Pokenons here .... -->
+        </ol>
+        <div class="pagination">
+            <buttom id="loadMoreButton" type="buttom">
+                Load More
+            </buttom>
+        </div>
     </section>
+    <script src="assets/js/pokenon-model.js"></script>
+    <script src="assets/js/poke-api.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 
