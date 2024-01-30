@@ -164,6 +164,13 @@ html {
     font-size: 1rem; 
 }
 
+.pagination buttom:hover {
+    cursor:progress;
+    color: rgb(241, 132, 241);
+    box-shadow: inset 0px -5px 2px #6e5896 ;
+}
+
+
 @media screen and (min-width: 380px) {
     .pokemons {
         margin: 0 auto;
