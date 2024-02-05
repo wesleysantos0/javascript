@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+    box-sizing: border-box;
+}
+h1 {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border: 2px solid red;
+    background-color: lightgrey;
+    color: rgb(78, 78, 78);
+}
+
+.containerPai{
+    display: flex;
+    gap: 10px;
+    border: 1px dashed black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 50px;
+    overflow: hidden;
+    background-color: gray;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+
+
+}
+
+.container ol{
+    list-style: none;
+}
+.container ol >li {
+    display: block;
+    text-align: left;
+    padding: 5px;
+}
+li:hover {
+    background-color: #80808062;
+    color: red;
+}
+p{
+    background-color: gray;
+    color: white;
+    padding: 5px;
+}
+
