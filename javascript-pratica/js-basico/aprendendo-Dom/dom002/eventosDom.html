@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Dom</title>
+
+    <!-- Css -->
+    <style>
+        #area{
+            font: normal 15pt arial;
+            background-color: green;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- onclick, um evento para identificar que nosso conteúdo foi clicado em nosso HTML -->
+    <!-- onclick="clicar()" onmouseenter="entrou()" onmouseout="saiu()" -->
+    <div id="area">Interaja....</div>
+
+    <!-- Eventos Dom -->
+    <script>
+        let a = document.getElementById('area')
+        //Podemos adicionar o addEventListener, para que o nosso javascripit detecte uma ação
+
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrou)
+        a.addEventListener('mouseout', saiu)
+        function clicar() {
+            let a = document.getElementById('area')
+
+            a.innerText = 'você clicou!' // vai alterar nosso conteúdo dentro da Div
+            a.style.background = 'blue'
+        }
+
+        function entrou(){
+            a.innerText = 'Entrou!'
+        }
+
+        function saiu(){
+            a.innerText = 'Saiu!'
+            a.style.background = 'green'
+        }
+    </script>
+</body>
+</html>
