@@ -3,14 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="css/menu.css">
     <title>js-Basic</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        .bars {
+            /* display: flex;
+            /* justify-content: center;
+            align-items: center; */ 
+            background-color: gray;
+            width: 2rem;
+            height: 1.5rem;
+            overflow: hidden;
+        }
+
+        .bars ul {
+            list-style: none;
+        }
+    </style>
 </head>
 <body>
     <h1>Introducao a Java-script</h1>
     <div class="containerPai">
         <div class="container">
             <ol class="bars">
+                <span class="material-symbols-outlined" class="men" onclick="openMenu()" >
+                    menu
+                    </span>
                 <li id="menu">Menu</li>
                 <li id="docum">Documentos</li>
                 <li id="close">fechar</li>
@@ -18,7 +42,8 @@
         </div>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam cupiditate nisi repudiandae, ducimus nihil ipsa vitae repellat provident, architecto laboriosam laudantium qui nesciunt doloremque earum nostrum reprehenderit. Esse, soluta eaque?</p>
     </div>
-    <script src="introducao.js"></script>
+    <script>
+    </script>
     <footer>
         <a href="#rodapé">home</a>
     </footer>

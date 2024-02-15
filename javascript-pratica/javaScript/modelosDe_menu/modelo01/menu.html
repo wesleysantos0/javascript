@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            border: 1px solid black;
+            width: 500px;
+            height: 1.3rem;
+            padding: 10px;
+            /* overflow: hidden; */
+        }
+
+        .container-menu {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+
+            height: 1.7rem;
+            width: 6rem;
+
+            border: 1px solid black;
+
+            font-size: 1.2rem;
+            font-weight: 400;
+            font-family: Arial, Helvetica, sans-serif;
+
+            overflow: hidden;
+        }
+
+        .container-menuOpen {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+
+            height: 10rem;
+            width: 6rem;
+
+            background-color: lightgray;
+            border: 1px solid black;
+
+            font-size: 1.2rem;
+            font-weight: 400;
+            font-family: Arial, Helvetica, sans-serif;
+            
+            overflow: visible;
+        }
+
+        .container-menuOpen ul {
+            display: flex;
+            flex-direction: column;
+            margin-top: .5rem;
+            list-style: none;
+        }
+
+        .container-menuOpen ul>li,
+        a {
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .container-menuOpen ul>li,
+        a:hover {
+            color: rgba(250, 1, 1, 0.822);
+        }
+    </style>
+
+    <title>Criando Menu</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-menu">
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+            <ul>
+                <li><a href="#">sobre</a></li>
+                <li><a href="#">contac</a></li>
+                <li><a href="#">Ajuda</a></li>
+            </ul>
+        </div>
+
+        <span class="material-symbols-outlined">
+            local_mall
+        </span>
+        <span class="material-symbols-outlined">
+            local_shipping
+        </span>
+    </div>
+
+    <script>
+
+        // Meu menuOpen está interagindo com meu DOM.
+        const menuOpen = document.querySelector('.container-menu');
+
+        // Criei uma function para Abrir e Fechar meu menu.
+
+        // 
+        menuOpen.addEventListener('click',() =>{
+            menuOpen.classList.toggle('container-menuOpen');
+        } )//classList.toggle =  O método toggle() adiciona a classe se ela não estiver presente e a remove se ela já estiver presente.
+
+
+        // menuOpen.style.overflow = 'visible';
+    </script>
+</body>
+
+</html>

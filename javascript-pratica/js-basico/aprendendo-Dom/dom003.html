@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manupulação do DOM</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .sectiEx {
+            margin: 1rem 0rem;
+            background-color: lightcyan;
+            padding: 1rem;
+            border: 1px solid gray;
+        }
+
+        .alterElement{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Interagindo com Dom</h1>
+    <section class="sectiEx">
+        <h2>Nível Iniciante:</h2>
+
+        <!-- EX-01 -->
+        <p><strong>EX01:</strong>Modifique o texto de um parágrafo.</p>
+        <!-- alteração no Paragrafo abaixo -->
+        <p id="paraModif">ola Mundo!</p>
+        <button id="myButton">Aterar</button>
+    </section>
+
+    <!-- EX-02 -->
+    <section class="sectiEx">
+        <h2>Nível Iniciante:</h2>
+        <p><strong>EX02:</strong>Altere a cor do texto de um elemento..</p>
+
+        <p id="colorMod">ola Mundo!</p>
+        <button id="myButtontw">Aterar</button>
+    </section>
+
+    <!-- EX-03 -->
+    <section class="sectiEx">
+        <h2>Nível Iniciante:</h2>
+        <p><strong>EX03:</strong>Adicione uma classe a um elemento.</p>
+
+        <p id="myElemento">Parágrafo a alterar o elemento</p>
+
+        <button id="myButtontree">Aterar</button>
+    </section>
+
+
+    <script>
+
+        // EX-01 - Novo Paragrafo
+        const button = document.getElementById('myButton');
+
+        const newText = document.getElementById('paraModif');
+
+        //Funcao Para Alteração do nosso Parágrafo 
+        button.addEventListener('click', function () {
+            newText.textContent = 'Me livrei da Maldição';
+
+        });
+
+        // Ex-02 Alterando a cor do Parágrafo
+        const button2 = document.getElementById('myButtontw');
+
+        const colorMod = document.getElementById('colorMod');
+
+        //Funcao Para Alteração do nosso Parágrafo 
+        button2.addEventListener('click', function () {
+            colorMod.style.color = 'blue';
+        });
+
+        // EX-03
+
+        const elemento = document.getElementById('myElemento')
+
+        const button3 = document.getElementById('myButtontree');
+
+        button3.addEventListener('click', function () {
+            elemento.classList.add('alterElement');
+            elemento.innerText = 'Elemento Alterado'
+            // altElemt.style.color = 'red'
+        });
+
+
+
+    </script>
+</body>
+
+</html>
