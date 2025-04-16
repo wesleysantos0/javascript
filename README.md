@@ -1,18 +1,35 @@
-# javascript
- Curso de javascript
+# 🕹️ Projetos em JavaScript - Wesley Santos
 
- Jogo Detona Ralph : 
- https://wesleysantos0.github.io/RalphDetona/
+Este repositório reúne uma coleção dos meus jogos e projetos interativos desenvolvidos com HTML, CSS e JavaScript.
 
- Jogo da Memória : 
- https://wesleysantos0.github.io/jogo-da-memoria/
+## 🎮 Jogos
 
- Jogo de simulação de Piano :
-  https://wesleysantos0.github.io/piano-virtual/
+### 🧱 Jogo Detona Ralph  
+![Detona Ralph](link-para-print)
+- 🔗 [Ver online](https://wesleysantos0.github.io/RalphDetona/)
+- Recriação do clássico arcade com sprites e colisões simples.
 
-  Jogo YU-GI-Oh Joken-po :
-  https://wesleysantos0.github.io/js-yugioh-assets/
+### 🧠 Jogo da Memória  
+- 🔗 [Ver online](https://wesleysantos0.github.io/jogo-da-memoria/)
+- Encontre os pares usando lógica e memória.
 
-  Pokedex :
-  https://wesleysantos0.github.io/pokedex-page/
- 
+### 🎹 Piano Virtual  
+- 🔗 [Ver online](https://wesleysantos0.github.io/piano-virtual/)
+- Simulador com teclas interativas e sons reais.
+
+### 🃏 Yu-Gi-Oh! Jokenpô  
+- 🔗 [Ver online](https://wesleysantos0.github.io/js-yugioh-assets/)
+- Versão do pedra-papel-tesoura com temática Yu-Gi-Oh!
+
+### 📱 Pokédex  
+- 🔗 [Ver online](https://wesleysantos0.github.io/pokedex-pa)
+- Busca e visualização de Pokémons via API.
+
+---
+
+## 🛠️ Tecnologias Usadas
+
+- HTML5
+- CSS3
+- JavaScript
+- APIs públicas (no caso da Pokédex)
